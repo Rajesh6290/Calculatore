@@ -23,27 +23,30 @@ function calculate(){
     {
         document.getElementById("remark").innerHTML="<span style='color:#FF0000;'>Fail</span>";
     }
-    if(per>=4.0 && per<=5.0){
+   if(obtain>=4.0 && obtain<=5.0){
         document.getElementById("grade").innerHTML="D";
 
     }
-    else if(per>=5.0 && per <= 6.0){
+    else if(obtain>=5.0 && obtain <= 6.0){
         document.getElementById("grade").innerHTML="C";
     }
-    else if(per >=6.0 && per <= 7.0){
+    else if(obtain >=6.0 && obtain <= 7.0){
         document.getElementById("grade").innerHTML="B";
     }
-    else if(per >=7.0 && per <= 8.5){
+    else if(obtain >=7.0 && obtain <= 8.0){
         document.getElementById("grade").innerHTML="A";
     }
-    else if(per>= 8.5 && per <=10.0){
+    else if(obtain >=8.0 && obtain <= 9.0){
+        document.getElementById("grade").innerHTML="E";
+    }
+    else if(obtain>= 9.0 && obtain <=10.0){
         document.getElementById("grade").innerHTML="O";
     }
     else
     {
         document.getElementById("grade").innerHTML="F";
     }
-   }
+   
 
 
 
