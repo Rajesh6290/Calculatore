@@ -23,7 +23,7 @@ function calculate(){
     {
         document.getElementById("remark").innerHTML="<span style='color:#FF0000;'>Fail</span>";
     }
-   if(obtain>=4.0 && obtain<=5.0){
+    if(obtain>=4.0 && obtain<=5.0){
         document.getElementById("grade").innerHTML="D";
 
     }
@@ -46,7 +46,7 @@ function calculate(){
     {
         document.getElementById("grade").innerHTML="F";
     }
-   
+   }
 
 
 
